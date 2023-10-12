@@ -1,0 +1,87 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.short_div {
+  background-color: #c2dfff;
+  flex: 1;
+}
+
+.large_div {
+  flex: 2;
+}
+
+.header {
+  background-color: #2c3539;
+  color: #c2dfff;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 1px;
+}
+
+.title {
+  background-color: #2c3539;
+  color: #c2dfff;
+  padding: 20px 10px 20px 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.info {
+  padding: 10px;
+  margin: 10px;
+}
+
+.info_bold {
+  font-weight: bolder;
+}
+
+.info_italic {
+  font-style: italic;
+}
+
+.contact_me {
+  color: #2c3539;
+  text-align: center;
+  background-color: #c2dfff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input_boxes {
+  margin: 3%;
+  width: 90%;
+  background-color: #c2dfff;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3539;
+  border-radius: 3%;
+  height: 5vh;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.submit {
+  background-color: #2c3539;
+  border-radius: 10%;
+  padding: 20px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.link-back {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.contact_info {
+  color: #2c3539;
+}
